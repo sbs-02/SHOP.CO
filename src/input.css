@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-container {
+  @apply container w-full mx-auto px-[20px] lg:px-[50px];
+}
