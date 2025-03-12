@@ -1,16 +1,16 @@
 @font-face {
   font-family: "satoshi";
-  src: url(/Fonts/Satoshi/Satoshi-Regular.ttf);
+  src: url(Fonts/Satoshi/Satoshi-Regular.ttf);
 }
 
 @font-face {
   font-family: "satoshi-bold";
-  src: url(/Fonts/Satoshi/Satoshi-Bold.ttf);
+  src: url(Fonts/Satoshi/Satoshi-Bold.ttf);
 }
 
 @font-face {
   font-family: "integralcf";
-  src: url(/Fonts/Integral-CF/IntegralCF-Bold.ttf);
+  src: url(Fonts/Integral-CF/IntegralCF-Bold.ttf);
 }
 
 * {
