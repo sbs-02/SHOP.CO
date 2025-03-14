@@ -31,3 +31,23 @@
 .hidden {
   display: none;
 }
+
+.star {
+  transition: color 0.3s ease;
+}
+
+.star-rating {
+  cursor: pointer;
+}
+
+.text-yellow-400 {
+  color: gold;
+}
+
+.text-gray-400 {
+  color: gray;
+}
+
+.black {
+  background-color: black;
+}

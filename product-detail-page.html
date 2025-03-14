@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/6d61a9a109.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Product Detail Page</title>
+  </head>
+  <body>
+    <!-- AD section -->
+    <div class="bg-black" id="ad">
+      <div
+        class="page-container flex h-[34px] w-full items-center justify-center py-[9px] text-[12px] text-white lg:text-[14px]"
+      >
+        <div class="hidden lg:flex lg:w-full"></div>
+        <div class="flex w-full justify-center gap-1 whitespace-nowrap">
+          <p>Sign up and get 20% off on your first order.</p>
+          <button href="#" class="underline underline-offset-4">
+            Sign Up Now
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:w-full lg:justify-end" id="cross">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <header>
+      <nav class="page-container flex justify-between lg:hidden">
+        <div class="flex items-center gap-5 py-[10px]">
+          <i class="fa-solid fa-bars text-[25px]"></i>
+          <h2 class="heading-font text-[25px]">SHOP.CO</h2>
+        </div>
+        <div class="flex items-center gap-3">
+          <img src="images/search.svg" class="h-[25px] w-[25px]" />
+          <img src="images/cart.svg" class="h-[25px] w-[25px]" />
+          <img src="images/user.svg" class="h-[25px] w-[25px]" />
+        </div>
+      </nav>
+
+      <nav
+        class="page-container hidden items-center justify-between py-[20px] lg:flex"
+      >
+        <h2 class="heading-font text-[32px]">SHOP.CO</h2>
+
+        <ul class="flex list-none gap-6 text-[16px]">
+          <li
+            class="flex items-center gap-1 hover:cursor-pointer hover:font-extrabold"
+          >
+            <span>Shop</span
+            ><i class="fa-solid fa-angle-down text-[16px] opacity-60"></i>
+          </li>
+          <li class="hover:cursor-pointer hover:font-extrabold">On Sale</li>
+          <li class="hover:cursor-pointer hover:font-extrabold">
+            New Arrivals
+          </li>
+          <li class="hover:cursor-pointer hover:font-extrabold">Brand</li>
+        </ul>
+
+        <div
+          class="flex w-[40%] gap-3 rounded-full bg-[#F0F0F0] px-[16px] py-[12px]"
+        >
+          <label for="search">
+            <img src="images/search.svg" class="h-[25px] w-[25px] opacity-40" />
+          </label>
+          <input
+            id="search"
+            placeholder="Search for products"
+            class="w-full bg-[#F0F0F0] px-1 focus:outline-none"
+          />
+        </div>
+
+        <div class="flex gap-[14px]">
+          <img src="images/cart.svg" class="h-[25px] w-[25px]" />
+          <img src="images/user.svg" class="h-[25px] w-[25px]" />
+        </div>
+      </nav>
+    </header>
+    <!-- Header ends here -->
+
+    <!--Hero Section -->
+    <section class="page-container flex flex-col gap-4">
+      <div
+        class="flex items-center gap-2 border-t border-black border-opacity-10 pt-[16px]"
+      >
+        <a href="index.html" class="text-[14px] opacity-60">Home</a>
+        <i class="fa-solid fa-angle-right text-[14px] opacity-60"></i>
+        <a href="#" class="text-[14px] opacity-60">Shop</a>
+        <i class="fa-solid fa-angle-right text-[14px] opacity-60"></i>
+        <a href="#" class="text-[14px] opacity-60">Men</a>
+        <i class="fa-solid fa-angle-right text-[14px] opacity-60"></i>
+        <a href="#" class="text-[14px] opacity-60">T-shirts</a>
+      </div>
+
+      <div class="grid grid-cols-3 gap-x-3 gap-y-3">
+        <img
+          src="images/one-life-graphic t-shirt.svg"
+          class="col-span-3 w-full"
+        />
+        <img src="images/one-life-tshirt.svg" class="col-span-1 w-full" />
+        <img
+          src="images/one-life-backside t-shirt.svg"
+          class="col-span-1 w-full"
+        />
+        <img src="images/one-life-tshirt model.svg" class="col-span-1 w-full" />
+      </div>
+
+      <div
+        class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
+      >
+        <h2 class="heading-font w-2/3 text-[24px] leading-7 lg:w-full">
+          ONE LIFE GRAPHIC T-SHIRT
+        </h2>
+
+        <div class="star-rating flex items-center gap-1">
+          <i
+            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
+            data-value="1"
+          ></i>
+          <i
+            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
+            data-value="2"
+          ></i>
+          <i
+            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
+            data-value="3"
+          ></i>
+          <i
+            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
+            data-value="4"
+          ></i>
+          <i
+            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
+            data-value="5"
+          ></i>
+          <div class="flex items-center">
+            <span class="bold text-[14px] xl:text-[16px]" id="rating">0</span>
+            <span class="bold text-[14px] xl:text-[16px]">/</span>
+            <span class="text-[14px] opacity-50 xl:text-[16px]">5</span>
+          </div>
+        </div>
+        <div class="flex items-center justify-start gap-1">
+          <span class="bold text-[20px] xl:text-[24px]">$280</span>
+          <span class="bold text-[20px] line-through opacity-50 xl:text-[24px]"
+            >$300</span
+          >
+          <span
+            class="rounded-full bg-red-100 px-1.5 py-0.5 text-[10px] text-red-500 xl:text-[12px]"
+            >40%</span
+          >
+        </div>
+        <p
+          class="w-full text-[14px] text-black text-opacity-60 lg:text-[16px] xl:text-[18px]"
+        >
+          This graphic t-shirt which is perfect for any occasion. Crafted from a
+          soft and breathable fabric, it offers superior comfort and style.
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
+      >
+        <span class="text-[14px] opacity-60 lg:text-[16px] xl:text-[18px]"
+          >Select Colors</span
+        >
+
+        <div class="flex gap-3">
+          <div
+            class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#4F4631]"
+          >
+            <i class="fa-solid fa-check text-center text-xs text-white"></i>
+          </div>
+
+          <div
+            class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#314F4A]"
+          >
+            <i class="fa-solid fa-check text-center text-xs text-white"></i>
+          </div>
+
+          <div
+            class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#32344F]"
+          >
+            <i class="fa-solid fa-check text-center text-xs text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
+      >
+        <span class="text-[14px] opacity-60 lg:text-[16px]">Choose Size</span>
+
+        <div class="flex justify-between">
+          <button
+            class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] px-[20px] py-[10px] text-[14px] opacity-60"
+          >
+            Small
+          </button>
+          <button
+            class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] px-[20px] py-[10px] text-[14px] opacity-60"
+          >
+            Medium
+          </button>
+          <button
+            class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] px-[20px] py-[10px] text-[14px] opacity-60"
+          >
+            Large
+          </button>
+          <button
+            class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] px-[20px] py-[10px] text-[14px] opacity-60"
+          >
+            X-Large
+          </button>
+        </div>
+      </div>
+
+      <div class="flex justify-between pb-[16px]">
+        <button><span>-</span> <span>1</span> <span>+</span></button>
+        <button></button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
