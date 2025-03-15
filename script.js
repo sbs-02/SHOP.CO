@@ -42,18 +42,3 @@ stars.forEach((star) => {
 });
 
 // Select Size Button in Product-Detail-Page
-document.querySelectorAll(".flex button").forEach((button) => {
-  button.addEventListener("click", function () {
-    // Reset all buttons to default
-    document.querySelectorAll(".flex button").forEach((btn) => {
-      btn.style.backgroundColor = "#F0F0F0";
-      btn.style.color = "black";
-      btn.style.opacity = "0.6"; // Restore original opacity
-    });
-
-    // Apply active styles to the clicked button
-    this.style.backgroundColor = "black";
-    this.style.color = "white";
-    this.style.opacity = 1; //Remove opacity effect for full black background
-  });
-});
