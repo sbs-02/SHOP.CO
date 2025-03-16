@@ -267,18 +267,213 @@
     </section>
 
     <!-- Ratings & Review Section -->
-    <section class="page-container flex flex-col gap-4">
+    <section class="page-container flex flex-col gap-4 xl:gap-6">
       <div
         class="flex items-center justify-between border-b border-black border-opacity-10 pb-[16px]"
       >
         <span class="text-[16px] opacity-60 xl:text-[20px]"
           >Product Details</span
         >
+
         <span
           class="relative text-[16px] after:absolute after:bottom-[-16px] after:left-0 after:h-[2px] after:w-[100%] after:bg-black after:content-[''] xl:text-[20px]"
           >Rating & Reviews</span
         >
         <span class="text-[16px] opacity-60 xl:text-[20px]">FAQS</span>
+      </div>
+
+      <div class="flex justify-between">
+        <div class="flex items-center gap-2">
+          <span class="bold text-[20px]">All Reviews</span>
+          <span class="text-[14px]">(451)</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div
+            class="items-center rounded-[50%] bg-[#F0F0F0] px-2 py-1.5 md:py-1 lg:px-3"
+          >
+            <img
+              src="images/Filter-button.svg"
+              class="h-8 w-8 lg:h-10 lg:w-10"
+            />
+          </div>
+
+          <button
+            class="hidden items-center gap-2 rounded-[62px] bg-[#F0F0F0] px-4 py-3 md:flex"
+          >
+            <span class="text-[14px] lg:text-[16px]">Latest</span>
+            <i class="fa-solid fa-angle-down text-[14px] opacity-60"></i>
+          </button>
+
+          <button
+            class="w-full rounded-[62px] bg-black px-4 py-3 text-[14px] text-white lg:text-[16px]"
+          >
+            Write a Review
+          </button>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-3 md:grid md:grid-cols-2">
+        <div
+          class="flex flex-col gap-2 rounded-[20px] border border-black border-opacity-10 p-6 lg:p-7"
+        >
+          <div class="flex gap-1">
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="bold text-[16px] lg:text-[18px]">Samantha D.</span>
+            <div
+              class="flex h-5 w-5 items-center justify-center rounded-[50%] bg-green-600"
+            >
+              <i class="fa-solid fa-check text-center text-xs text-white"></i>
+            </div>
+          </div>
+
+          <p class="text-[14px] text-black text-opacity-60 lg:text-[16px]">
+            "I absolutely love this t-shirt! The design is unique and the fabric
+            feels so comfortable. As a fellow designer, I appreciate the
+            attention to detail. It's become my favorite go-to shirt."
+          </p>
+
+          <span class="bold text-[14px]">Posted on August 14, 2023</span>
+        </div>
+
+        <div
+          class="flex flex-col gap-2 rounded-[20px] border border-black border-opacity-10 p-6 lg:p-7"
+        >
+          <div class="flex gap-1">
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="bold text-[16px] lg:text-[18px]">Ethan R.</span>
+            <div
+              class="flex h-5 w-5 items-center justify-center rounded-[50%] bg-green-600"
+            >
+              <i class="fa-solid fa-check text-center text-xs text-white"></i>
+            </div>
+          </div>
+
+          <p class="text-[14px] text-black text-opacity-60 lg:text-[16px]">
+            "This t-shirt is a must-have for anyone who appreciates good design.
+            The minimalistic yet stylish pattern caught my eye, and the fit is
+            perfect. I can see the designer's touch in every aspect of this
+            shirt."
+          </p>
+
+          <span class="bold text-[14px]">Posted on August 16, 2023</span>
+        </div>
+
+        <div
+          class="flex flex-col gap-2 rounded-[20px] border border-black border-opacity-10 p-6 lg:p-7"
+        >
+          <div class="flex gap-1">
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="bold text-[16px] lg:text-[18px]">Alex M.</span>
+            <div
+              class="flex h-5 w-5 items-center justify-center rounded-[50%] bg-green-600"
+            >
+              <i class="fa-solid fa-check text-center text-xs text-white"></i>
+            </div>
+          </div>
+
+          <p class="text-[14px] text-black text-opacity-60 lg:text-[16px]">
+            "The t-shirt exceeded my expectations! The colors are vibrant and
+            the print quality is top-notch. Being a UI/UX designer myself, I'm
+            quite picky about aesthetics, and this t-shirt definitely gets a
+            thumbs up from me."
+          </p>
+
+          <span class="bold text-[14px]">Posted on August 15, 2023</span>
+        </div>
+
+        <div
+          class="flex flex-col gap-2 rounded-[20px] border border-black border-opacity-10 p-6 lg:p-7"
+        >
+          <div class="flex gap-1">
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+            <i
+              class="fa-solid fa-star text-[16px] text-yellow-400 lg:text-[18px]"
+            ></i>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="bold text-[16px] lg:text-[18px]">Olivia P.</span>
+            <div
+              class="flex h-5 w-5 items-center justify-center rounded-[50%] bg-green-600"
+            >
+              <i class="fa-solid fa-check text-center text-xs text-white"></i>
+            </div>
+          </div>
+
+          <p class="text-[14px] text-black text-opacity-60 lg:text-[16px]">
+            "As a UI/UX enthusiast, I value simplicity and functionality. This
+            t-shirt not only represents those principles but also feels great to
+            wear. It's evident that the designer poured their creativity into
+            making this t-shirt stand out."
+          </p>
+
+          <span class="bold text-[14px]">Posted on August 17, 2023</span>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <button
+          class="w-fit rounded-[62px] border border-black border-opacity-10 px-[36px] py-[14px] text-[14px] xl:px-12 xl:py-4"
+        >
+          Load More Reviews
+        </button>
       </div>
     </section>
     <script src="script.js"></script>
