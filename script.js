@@ -40,5 +40,3 @@ stars.forEach((star) => {
     updateRating(rating);
   });
 });
-
-// Select Size Button in Product-Detail-Page

@@ -47,7 +47,9 @@
       <nav
         class="page-container hidden items-center justify-between py-[20px] lg:flex"
       >
-        <h2 class="heading-font text-[32px]">SHOP.CO</h2>
+        <a href="index.html"
+          ><h2 class="heading-font text-[32px]">SHOP.CO</h2></a
+        >
 
         <ul class="flex list-none gap-6 text-[16px]">
           <li
@@ -85,7 +87,7 @@
     <!-- Header ends here -->
 
     <!--Hero Section -->
-    <section class="page-container flex flex-col gap-4">
+    <section class="page-container flex flex-col gap-4 pb-4">
       <div
         class="flex items-center gap-2 border-t border-black border-opacity-10 pt-[16px]"
       >
@@ -98,142 +100,185 @@
         <a href="#" class="text-[14px] opacity-60">T-shirts</a>
       </div>
 
-      <div class="grid grid-cols-3 gap-x-3 gap-y-3">
-        <img
-          src="images/one-life-graphic t-shirt.svg"
-          class="col-span-3 w-full"
-        />
-        <img src="images/one-life-tshirt.svg" class="col-span-1 w-full" />
-        <img
-          src="images/one-life-backside t-shirt.svg"
-          class="col-span-1 w-full"
-        />
-        <img src="images/one-life-tshirt model.svg" class="col-span-1 w-full" />
-      </div>
-
-      <div
-        class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
-      >
-        <h2 class="heading-font w-2/3 text-[24px] leading-7 lg:w-full">
-          ONE LIFE GRAPHIC T-SHIRT
-        </h2>
-
-        <div class="star-rating flex items-center gap-1">
-          <i
-            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
-            data-value="1"
-          ></i>
-          <i
-            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
-            data-value="2"
-          ></i>
-          <i
-            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
-            data-value="3"
-          ></i>
-          <i
-            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
-            data-value="4"
-          ></i>
-          <i
-            class="fa fa-star text-[14px] text-gray-400 xl:text-[16px]"
-            data-value="5"
-          ></i>
-          <div class="flex items-center">
-            <span class="bold text-[14px] xl:text-[16px]" id="rating">0</span>
-            <span class="bold text-[14px] xl:text-[16px]">/</span>
-            <span class="text-[14px] opacity-50 xl:text-[16px]">5</span>
-          </div>
-        </div>
-        <div class="flex items-center justify-start gap-1">
-          <span class="bold text-[20px] xl:text-[24px]">$280</span>
-          <span class="bold text-[20px] line-through opacity-50 xl:text-[24px]"
-            >$300</span
-          >
-          <span
-            class="rounded-full bg-red-100 px-1.5 py-0.5 text-[10px] text-red-500 xl:text-[12px]"
-            >40%</span
-          >
-        </div>
-        <p
-          class="w-full text-[14px] text-black text-opacity-60 lg:text-[16px] xl:text-[18px]"
+      <div class="flex flex-col gap-4 lg:flex-row lg:justify-between lg:pb-4">
+        <div
+          class="grid grid-cols-3 gap-x-3 gap-y-3 md:grid-cols-4 md:grid-rows-3 lg:w-[60%]"
         >
-          This graphic t-shirt which is perfect for any occasion. Crafted from a
-          soft and breathable fabric, it offers superior comfort and style.
-        </p>
-      </div>
+          <img
+            src="images/one-life-tshirt.svg"
+            class="col-span-3 h-full w-full rounded-[20px] object-cover md:col-span-3 md:row-span-3"
+          />
 
-      <div
-        class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
-      >
-        <span class="text-[14px] opacity-60 lg:text-[16px] xl:text-[18px]"
-          >Select Colors</span
-        >
+          <img
+            src="images/one-life-tshirt-sm.svg"
+            class="col-span-1 w-full md:row-span-1 lg:h-full lg:rounded-[20px] lg:object-cover"
+          />
+          <img
+            src="images/one-life-backside t-shirt.svg"
+            class="col-span-1 w-full md:row-span-1 lg:h-full lg:rounded-[20px] lg:object-cover"
+          />
+          <img
+            src="images/one-life-tshirt model.svg"
+            class="col-span-1 w-full md:row-span-1 lg:h-full lg:rounded-[20px] lg:object-cover"
+          />
+        </div>
 
-        <div class="flex gap-3">
+        <div class="flex flex-col gap-4 lg:w-[40%] xl:justify-between">
           <div
-            class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#4F4631]"
+            class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
           >
-            <i class="fa-solid fa-check text-center text-xs text-white"></i>
-          </div>
+            <h2
+              class="heading-font w-2/3 text-[24px] leading-7 lg:w-full xl:text-[40px] xl:leading-10"
+            >
+              ONE LIFE GRAPHIC T-SHIRT
+            </h2>
 
-          <div
-            class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#314F4A]"
-          >
-            <i class="fa-solid fa-check text-center text-xs text-white"></i>
+            <div class="star-rating flex items-center gap-1">
+              <i
+                class="fa fa-star text-[14px] text-gray-400 xl:text-[18px]"
+                data-value="1"
+              ></i>
+              <i
+                class="fa fa-star text-[14px] text-gray-400 xl:text-[18px]"
+                data-value="2"
+              ></i>
+              <i
+                class="fa fa-star text-[14px] text-gray-400 xl:text-[18px]"
+                data-value="3"
+              ></i>
+              <i
+                class="fa fa-star text-[14px] text-gray-400 xl:text-[18px]"
+                data-value="4"
+              ></i>
+              <i
+                class="fa fa-star text-[14px] text-gray-400 xl:text-[18px]"
+                data-value="5"
+              ></i>
+              <div class="flex items-center">
+                <span class="bold text-[14px] xl:text-[18px]" id="rating"
+                  >0</span
+                >
+                <span class="bold text-[14px] xl:text-[18px]">/</span>
+                <span class="text-[14px] opacity-50 xl:text-[18px]">5</span>
+              </div>
+            </div>
+            <div class="flex items-center justify-start gap-1">
+              <span class="bold text-[20px] xl:text-[24px]">$280</span>
+              <span
+                class="bold text-[20px] line-through opacity-50 xl:text-[24px]"
+                >$300</span
+              >
+              <span
+                class="rounded-full bg-red-100 px-1.5 py-0.5 text-[10px] text-red-500 xl:text-[12px]"
+                >40%</span
+              >
+            </div>
+            <p
+              class="w-full text-[14px] text-black text-opacity-60 lg:text-[16px] xl:text-[18px]"
+            >
+              This graphic t-shirt which is perfect for any occasion. Crafted
+              from a soft and breathable fabric, it offers superior comfort and
+              style.
+            </p>
           </div>
 
           <div
-            class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#32344F]"
+            class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
           >
-            <i class="fa-solid fa-check text-center text-xs text-white"></i>
+            <span class="text-[14px] opacity-60 lg:text-[16px] xl:text-[18px]"
+              >Select Colors</span
+            >
+
+            <div class="flex gap-3">
+              <div
+                class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#4F4631]"
+              >
+                <i
+                  class="fa-solid fa-check text-center text-xs text-white xl:text-[18px]"
+                ></i>
+              </div>
+
+              <div
+                class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#314F4A]"
+              >
+                <i
+                  class="fa-solid fa-check text-center text-xs text-white xl:text-[18px]"
+                ></i>
+              </div>
+
+              <div
+                class="flex h-9 w-9 items-center justify-center rounded-[50%] bg-[#32344F]"
+              >
+                <i
+                  class="fa-solid fa-check text-center text-xs text-white xl:text-[18px]"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
+          >
+            <span class="text-[14px] opacity-60 lg:text-[16px]"
+              >Choose Size</span
+            >
+
+            <div class="flex justify-between md:justify-start md:gap-3">
+              <button
+                class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] text-[14px] opacity-60 xxs:px-[10px] xxs:py-[5px] xs:px-[20px] xs:py-[10px] xl:text-[18px]"
+              >
+                Small
+              </button>
+              <button
+                class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] text-[14px] opacity-60 xxs:px-[10px] xxs:py-[5px] xs:px-[20px] xs:py-[10px] xl:text-[18px]"
+              >
+                Medium
+              </button>
+              <button
+                class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] text-[14px] opacity-60 xxs:px-[10px] xxs:py-[5px] xs:px-[20px] xs:py-[10px] xl:text-[18px]"
+              >
+                Large
+              </button>
+              <button
+                class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] text-[14px] opacity-60 xxs:px-[10px] xxs:py-[5px] xs:px-[20px] xs:py-[10px] xl:text-[18px]"
+              >
+                X-Large
+              </button>
+            </div>
+          </div>
+
+          <div class="flex justify-between pb-[16px] md:gap-3 md:pb-0">
+            <button
+              class="flex h-[44px] w-[110px] items-center justify-center gap-x-[16px] rounded-[62px] bg-[#F0F0F0]"
+            >
+              <span class="bold text-[20px] xl:text-[24px]">-</span>
+              <span class="text-[14px] xl:text-[20px]">1</span>
+              <span class="bold text-[20px] xl:text-[24px]">+</span>
+            </button>
+
+            <button
+              class="h-[44px] w-[246px] rounded-[62px] bg-black text-[14px] text-white md:w-full xl:text-[18px]"
+            >
+              Add to Cart
+            </button>
           </div>
         </div>
       </div>
+    </section>
 
+    <!-- Ratings & Review Section -->
+    <section class="page-container flex flex-col gap-4">
       <div
-        class="flex flex-col gap-3 border-b border-black border-opacity-10 pb-[16px]"
+        class="flex items-center justify-between border-b border-black border-opacity-10 pb-[16px]"
       >
-        <span class="text-[14px] opacity-60 lg:text-[16px]">Choose Size</span>
-
-        <div class="flex justify-between">
-          <button
-            class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] text-[14px] opacity-60 xxs:px-[10px] xxs:py-[5px] xs:px-[20px] xs:py-[10px]"
-          >
-            Small
-          </button>
-          <button
-            class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] text-[14px] opacity-60 xxs:px-[10px] xxs:py-[5px] xs:px-[20px] xs:py-[10px]"
-          >
-            Medium
-          </button>
-          <button
-            class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] text-[14px] opacity-60 xxs:px-[10px] xxs:py-[5px] xs:px-[20px] xs:py-[10px]"
-          >
-            Large
-          </button>
-          <button
-            class="xl:[16px] w-auto rounded-[62px] bg-[#F0F0F0] text-[14px] opacity-60 xxs:px-[10px] xxs:py-[5px] xs:px-[20px] xs:py-[10px]"
-          >
-            X-Large
-          </button>
-        </div>
-      </div>
-
-      <div class="flex justify-between pb-[16px]">
-        <button
-          class="flex h-[44px] w-[110px] items-center justify-center gap-x-[16px] rounded-[62px] bg-[#F0F0F0]"
+        <span class="text-[16px] opacity-60 xl:text-[18px]"
+          >Product Details</span
         >
-          <span class="bold text-[20px]">-</span>
-          <span class="text-[14px]">1</span>
-          <span class="bold text-[20px]">+</span>
-        </button>
-
-        <button
-          class="h-[44px] w-[246px] rounded-[62px] bg-black text-[14px] text-white"
+        <span
+          class="relative text-[16px] after:absolute after:bottom-[-16px] after:left-0 after:h-[1px] after:w-[100%] after:bg-black after:content-[''] xl:text-[18px]"
+          >Rating & Reviews</span
         >
-          Add to Cart
-        </button>
+        <span class="text-[16px] opacity-60 xl:text-[18px]">FAQS</span>
       </div>
     </section>
     <script src="script.js"></script>
